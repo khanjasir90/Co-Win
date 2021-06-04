@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return "Hello, Moazzam!"
 
-@app.route("/login")
+@app.route("/")
 def login():
     return render_template('login.html')
 
